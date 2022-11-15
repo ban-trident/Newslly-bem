@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Newslly</title>
 </head>
 <body>
@@ -13,16 +13,88 @@
         </div>
     </header>
     <main class="main">
-        <section>
-            <div></div>
+        <section class="news">
+            <div class="news__inner">
+                <h2 class="news__title">MORE NEWS</h2>
+                <div class="news__list">
+                    <article class="unit news__item">
+                        <p class="unit__catch">TRAVEL</p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <div class="unit__body">
+                            <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                        </div>
+                        <div class="time">
+                            <img class="time__icon" src="./images/icon_time.png" alt="">
+                            <p class="time__text">2m ago</p>
+                        </div>
+                    </article>
+                    <article class="unit news__item">
+                        <p class="unit__catch">TECHNOLOGY</p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <div class="unit__body">
+                            <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                        </div>
+                        <div class="time">
+                            <img class="time__icon" src="./images/icon_time.png" alt="">
+                            <p class="time__text">1h ago</p>
+                        </div>
+                    </article>
+                    <article class="unit news__item">
+                        <p class="unit__catch">PHOTO</p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <div class="unit__body">
+                            <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                        </div>
+                        <div class="time">
+                            <img class="time__icon" src="./images/icon_time.png" alt="">
+                            <p class="time__text">1d ago</p>
+                        </div>
+                    </article>
+                    <article class="unit news__item">
+                        <p class="unit__catch">VIDEO</p>
+                        <h3 class="unit__title">Subtitle</h3>
+                        <div class="unit__body">
+                            <p class="unit__text">Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id. Affert detraxit voluptatum vis eu, inermis eloquentiam.</p>
+                        </div>
+                        <div class="time">
+                            <img class="time__icon" src="./images/icon_time.png" alt="">
+                            <p class="time__text">3d ago</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
-        <section>
-            <div></div>
+        <section class="trending">
+            <div class="trending__inner">
+                <h2 class="trending__title">TRENDING</h2>
+                <div class="card__list">
+                    <div class="card trending__item">
+                        <img src="./images/pic_trending01.png" alt="">
+                        <div class="card__info">
+                            <dl class="card__about">
+                                <dt class="card__title">Dolore magna aliqua</dt>
+                                <dd class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</dd>
+                            </dl>
+                            <a class="btn" href="#">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="card trending__item">
+                        <img src="./images/pic_trending02.png" alt="">
+                        <div class="card__info">
+                            <dl class="card__about">
+                                <dt class="card__title">Morbi eleifend a libero</dt>
+                                <dd class="card__text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</dd>
+                            </dl>
+                            <a class="btn" href="#">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <div class="footer__inner">
-            <small class="footer__copy"></small>
+            <small class="footer__copy">TRIDENT college All Rights Reserved.</small>
         </div>
     </footer>
 </body>
